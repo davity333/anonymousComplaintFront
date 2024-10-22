@@ -1,9 +1,10 @@
 import React from "react";
+import Form from "../components/organisms/Form"
 
 function Home() {
     return (
-        <div id="main">
-
+        <div className="w-100% h-screen border border-red-200 flex justify-center items-center">
+            <Form />
         </div>
     )
 }
