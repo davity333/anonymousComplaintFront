@@ -2,6 +2,8 @@ import Field from "../molecules/Field";
 import { useState } from "react";
 import { useEffect } from "react";
 import Button from "../atoms/Button";
+import Label from "../atoms/Label";
+import TitleForm from "../atoms/TitleForm";
 
 function Form() {
     const [email, setEmail] = useState(""); 
@@ -15,7 +17,12 @@ function Form() {
     }, [])
 
     return(     
-        <form className="w-1/4 h-1/2 border border-silver-200 flex-col rounded-lg">
+        <form className="w-1/4 h-1/2 bg-[#000000CC] flex-col rounded-lg">
+            <div className="w-full h-1/4 border border-red-400 flex justify-center items-center">
+            <TitleForm
+            title="Iniciar sesión"
+            ></TitleForm>
+            </div>
             <Field
             text={"email de una persona"}
             val={email}
@@ -28,7 +35,7 @@ function Form() {
             fnval={setPassword}
             >
             </Field>
-            <div className="w-full h-1/4 border border-red-200 flex items-center justify-center">
+            <div className="w-full h-1/4 border border-red-200  flex items-center justify-center">
                 <Button>
 
                 </Button>

@@ -7,7 +7,7 @@ function Input(props) {
     }
 
     return(
-        <input className="w-30 h-9 border boredr-red-200" onChange={handlerChange} value={props.val}></input>
+        <input className="w-[90%] h-9 bg-[#FFFFFF47]" onChange={handlerChange} value={props.val}></input>
     )
  }
 

@@ -4,7 +4,7 @@ import Label from "../atoms/Label";
 
 function Field(props) {
     return(
-        <div className="w-full h-1/4 border boder-green-600 flex flex-col">
+        <div className="w-full h-1/5 flex flex-col">
             <Label
             text={props.text}
             >
