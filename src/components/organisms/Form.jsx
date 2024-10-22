@@ -16,6 +16,12 @@ function Form() {
     }
 
     const login = () => {
+        fetch("", {
+            method: 'POST',
+            headers: {
+                "Acces-Control-Type": "*"
+            }
+        })
     }
 
     useEffect(() => {
@@ -30,13 +36,13 @@ function Form() {
                 ></TitleForm>
             </div>
             <Field
-                text={"email de una persona"}
+                text={"Email"}
                 val={email}
                 fnval={setEmail}
             >
             </Field>
             <Field
-                text={"Password de la persona"}
+                text={"Password"}
                 val={password}
                 fnval={setPassword}
             >

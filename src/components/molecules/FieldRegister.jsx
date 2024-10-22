@@ -1,13 +1,13 @@
-import Input from "../atoms/Input";
 import Label from "../atoms/Label";
+import Input from "../atoms/Input";
 
 
-function Field(props) {
+function FieldRegister(props) {
     return (
-        <div className="w-full h-1/5 flex justify-center items-center flex-col border border-red-200">
+        <div className="w-full h-[15%]">
             <div className="w-full h-[35%] flex justify-start items-center pl-5">
                 <Label
-                    text={props.text}
+                text={props.text}
                 >
                 </Label>
             </div>
@@ -21,4 +21,4 @@ function Field(props) {
     )
 }
 
-export default Field;
+export default FieldRegister; 
