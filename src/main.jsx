@@ -18,6 +18,10 @@ const router = new createBrowserRouter([
   {
     path: "/House",
     Component: House
+  },
+  {
+    path: "/Register",
+    Component: Register
   }
 ])
 

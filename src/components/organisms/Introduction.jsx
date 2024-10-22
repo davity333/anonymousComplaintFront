@@ -2,7 +2,7 @@ import Header from "../molecules/header";
 import Introduction from "../molecules/Introduction";
 import HacerDenuncia from "../molecules/HacerDenuncia";
 function Introductions() {
-    return ( 
+    return (
         <>
         <Header></Header>
         <Introduction></Introduction>
