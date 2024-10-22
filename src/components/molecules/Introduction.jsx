@@ -1,9 +1,7 @@
-
-
 function Introduction() {
     return (
         <>
-        <div>
+        <div className="bg-[url('introduction.jpg')]">
 
         </div>
         </>
