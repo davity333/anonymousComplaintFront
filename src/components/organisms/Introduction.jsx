@@ -1,10 +1,10 @@
 import Header from "../molecules/header";
 import Introduction from "../molecules/Introduction";
 function Introductions() {
-    return ( 
+    return (
         <>
-        <Header></Header>
-        <Introduction></Introduction>
+            <Header></Header>
+            <Introduction></Introduction>
         </>
     );
 }

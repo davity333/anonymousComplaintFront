@@ -2,7 +2,7 @@ import React from "react";
 
 function TitleForm(props) {
     return(
-        <label className="text-white text-lg">
+        <label className="text-white text-xl">
             {props.title}
         </label>
     )
