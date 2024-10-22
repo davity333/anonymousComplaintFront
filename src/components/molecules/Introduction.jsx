@@ -31,7 +31,6 @@ function Introduction() {
             </div>
         </>
     );
-    );
 }
 
 export default Introduction;
