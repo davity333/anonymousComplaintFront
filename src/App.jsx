@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <marquee behavior="" direction="">Bienvenido al hackaton</marquee>
+      <marquee behavior="" direction="">Bienvenido al aweaweaweaew</marquee>
     </>
   )
 }
