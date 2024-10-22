@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+    <p className='text-6xl text-blue-600'>TAILWIND</p>
       <marquee behavior="" direction="">Bienvenido al hackaton</marquee>
     </>
   )
