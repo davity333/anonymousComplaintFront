@@ -16,7 +16,7 @@ function HacerDenuncia() {
                         <option value="denuncia2">Denuncia 2</option>
                         <option value="denuncia3">Denuncia 3</option>
                     </select>
-                </div>
+                8</div>
             </div>
         </>
     );
