@@ -1,6 +1,6 @@
 import Header from "../molecules/header";
 import Introduction from "../molecules/Introduction";
-import HacerDenuncia from "../molecules/HacerDenuncia";
+import HacerDenuncia from "../molecules/CategoriasDenuncia";
 function Introductions() {
     return (
         <>
