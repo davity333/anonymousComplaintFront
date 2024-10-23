@@ -7,6 +7,7 @@ import Home from './pages/Home.jsx'
 import Register from './pages/Register.jsx'
 import House from './Pages/House.jsx'
 import Denuntiation from './pages/Denunciation.jsx'
+import Empresa from './Pages/Empresa.jsx'
 const router = new createBrowserRouter([
   {
     path: "/",
@@ -28,6 +29,10 @@ const router = new createBrowserRouter([
     path: "/Denuntation",
     Component: Denuntiation
   },
+  {
+    path: "/Empresa",
+    Component: Empresa
+  }
   
 ])
 
