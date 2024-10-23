@@ -29,7 +29,7 @@ function Form() {
     }, [])
 
     return (
-        <form className="w-1/4 h-1/2 bg-[#000000CC] flex-col rounded-lg">
+        <form className="w-[60vh] h-[58vh] bg-[#000000CC] flex-col rounded-lg">
             <div className="w-full h-1/4 flex justify-center items-center">
                 <TitleForm
                     title="Iniciar sesión"

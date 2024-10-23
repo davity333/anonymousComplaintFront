@@ -7,7 +7,8 @@ function InputName(props) {
     }
 
     return( 
-        <input fnval={props.fnval} value={props.val} onChange={handlerChange} className="w-[80%] h-8 bg-[#FFFFFF47]">
+        <input fnval={props.fnval} value={props.val} onChange={handlerChange} 
+        className="w-[80%] h-8 bg-[#FFFFFF47] rounded-lg text-white">
         </input>
     )
 }

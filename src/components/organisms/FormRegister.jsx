@@ -3,15 +3,13 @@ import TitleForm from "../atoms/TitleForm";
 import Field from "../molecules/Field";
 import FieldName from "../molecules/FieldName";
 import FieldRegister from "../molecules/FieldRegister";
-
+import Label from "../atoms/Label";
 
 function FormRegister() {
     return (
-        <form className="w-1/4 h-3/5 bg-[#000000CC] flex-col rounded-lg">
-            <div className="w-full h-1/4 flex justify-center items-center">
-                <TitleForm
-                    title="Register"
-                ></TitleForm>
+        <form className="w-[60vh] h-[63vh] bg-[#000000CC] flex-col rounded-lg">
+            <div className="flex justify-center items-center mt-9 text-4xl">
+                <p className="text-white">Registrate</p>
             </div>
             <div className="w-full h-[25%] flex justify-center items-center">
                 <FieldName
@@ -22,11 +20,24 @@ function FormRegister() {
                     title={"Segundo nombre"}
                 ></FieldName>
             </div>
+            
+            <div className="mb-2">
+                <div className="ml-4">
+                    <Label text={"Correo electronico"}></Label>
+                </div>
             <FieldRegister>
             </FieldRegister>
+            </div>
+
+            <div className="mb-7">
+            <div className="ml-4">
+                    <Label text={"Contraseña"}></Label>
+                </div>
             <FieldRegister>
             </FieldRegister>
-            <div className="w-full h-[20%] flex justify-center items-center">
+            </div>
+
+            <div className="w-full h-[20%] flex justify-center items-center -mt-8">
                 <Button>
                 </Button>
             </div>

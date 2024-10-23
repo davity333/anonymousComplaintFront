@@ -27,7 +27,8 @@ const router = new createBrowserRouter([
   {
     path: "/Denuntation",
     Component: Denuntiation
-  }
+  },
+  
 ])
 
 createRoot(document.getElementById('root')).render(

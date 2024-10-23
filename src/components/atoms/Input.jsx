@@ -7,7 +7,8 @@ function Input(props) {
     }
 
     return (
-        <input className="w-[90%] h-9 bg-[#FFFFFF47] rounded-sm" onChange={handlerChange} value={props.val}></input>
+        <input className="w-[90%] h-10 bg-[#FFFFFF47] rounded-lg text-white" 
+        onChange={handlerChange} value={props.val}></input>
     )
 }
 
