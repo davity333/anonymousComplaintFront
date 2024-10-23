@@ -1,37 +1,58 @@
 import LabelForms from "../atoms/labelForms";
+import edificio from "../../../public/edificio.png"
 function RegisterEmpresa() {
     return ( 
         <>
-    <div className="flex gap-10">
-        <div className="flex flex-col">
-            <LabelForms labelform={"Nombre de la empresa"}></LabelForms>
-            <input type="text" className="border-[0.3vh] w-[44vh]" />
-        </div>
+    <section className="flex justify-around pt-7"> 
+        <div className="flex flex-col gap-5">
+        <div className="p-10">
+            <div className="flex justify-center mt-10">
+                <p className="text-[4vh] font-semibold">Registrar empresa</p>
+            </div>
 
+            <div className="flex justify-center text-[2.3vh] font-light">
+                <p>Ingrese los datos de la empresa para registrarlo en el sistema.</p>
+            </div>
+        </div> 
+    <div className="flex gap-5">
         <div className="flex flex-col">
-            <LabelForms labelform={"Codigo postal"}></LabelForms>
-            <input type="text" className="border-[0.3vh] w-[44vh]" />
+        <LabelForms labelform={"Nombre de la empresa"}></LabelForms>
+        <input type="text" className="border border-gray-300 p-2 w-[400px]" />
+        </div>
+        <div className="flex flex-col">
+        <LabelForms labelform={"Codigo postal"}></LabelForms>
+        <input type="text" className="border border-gray-300 p-2 w-[400px]" />
         </div>
     </div>
 
-    <div className="flex gap-10 mt-5">
+    <div className="flex gap-5">
         <div className="flex flex-col">
+            <div>
             <LabelForms labelform={"Nombre del dueño de la empresa"}></LabelForms>
-            <input type="text" className="border-[0.3vh] w-[44vh]" />
+            </div>
+        <input type="text" className="border border-gray-300 p-2 w-[400px]" />
         </div>
-
         <div className="flex flex-col">
-            <LabelForms labelform={"Horario de servicio"}></LabelForms>
-            <input type="text" className="border-[0.3vh] w-[44vh]" />
+        <LabelForms labelform={"Horario de servicio"}></LabelForms>
+        <input type="text" className="border border-gray-300 p-2 w-[400px]" />
         </div>
     </div>
 
-    <div className="flex flex-col mt-5">
+    <div className="flex flex-col">
         <LabelForms labelform={"Ubicación de la empresa"}></LabelForms>
-        <input type="text" className="border-[0.3vh] w-[44vh]" />
+        <input type="text" className="border border-gray-300 p-2 w-[420px]" />
     </div>
 
-    <button className="bg-slate-800 text-white w-[50vh] mt-5">Agregar empresa</button>
+    <button className="bg-black text-white w-full py-3 pt-4 text-[2.3vh]">Agregar empresa</button>
+    </div>
+
+    <div className="ml-10 flex items-center mt-36">
+    <img src={edificio} alt="Empresas" className="h-[50vh]" />
+    </div>
+
+</section>
+
+
 
         </>
     );
