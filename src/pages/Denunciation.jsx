@@ -7,7 +7,7 @@ import Label from "../components/atoms/Label";
 import FormDenunciationOrg from "../components/organisms/FormDenunciationOrg";
 function Denuntiation() {
 
-    const options = [{ value: 'Calle', label: 'La calle' }, {}]
+    const options = [{ value: 'Calle', label: 'La calle' }, {value: "Domicilio", label: "El domicio"}]
     return (
         <>
     <Header></Header>

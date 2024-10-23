@@ -1,3 +1,4 @@
+import { useRef, useState } from "react";
 import Button from "../atoms/Button";
 import TitleForm from "../atoms/TitleForm";
 import Field from "../molecules/Field";
@@ -6,6 +7,18 @@ import FieldRegister from "../molecules/FieldRegister";
 import Label from "../atoms/Label";
 
 function FormRegister() {
+    
+    const [name, setName] = useState("");
+    const [secondName, setSecondName] = useState("");
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+
+
+    const encrypt = () => {
+        let encryptedPassword = CryptoJS.AES.encrypt(password, "regiber123").toString();
+
+    }
+
     return (
         <form className="w-[60vh] h-[63vh] bg-[#000000CC] flex-col rounded-lg">
             <div className="flex justify-center items-center mt-9 text-4xl">
@@ -41,6 +54,7 @@ function FormRegister() {
                 <Button>
                 </Button>
             </div>
+            <button onClick={() => encrypt()}>awea</button>
         </form>
     )
 }
