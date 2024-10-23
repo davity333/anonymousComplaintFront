@@ -5,7 +5,7 @@ import InputDescription from "../components/atoms/InputDescription";
 
 function Denuntiation() {
 
-    const options = [{ value: 'Calle', label: 'La calle' }, {}]
+    const options = [{ value: 'Calle', label: 'La calle' }, {value: "Domicilio", label: "El domicio"}]
     return (
         <div className="w-full h-screen">
             <Header />
