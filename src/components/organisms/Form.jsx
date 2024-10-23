@@ -7,10 +7,10 @@ import TitleForm from "../atoms/TitleForm";
 import { useNavigate } from "react-router-dom";
 
 function Form() {
-    const navigate = new useNavigate(); 
+    const navigate = new useNavigate();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("")
-    
+
     const navigateRegister = () => {
         navigate(["/"])
     }
@@ -55,7 +55,9 @@ function Form() {
                     <Label text="¿Aun no tienes una cuenta?">
                     </Label>
                     <label className="p-2 text-red-400" onClick={() => navigateRegister}>
-                        Registarte
+                        <a href={'./Register'}>
+                            Registarte
+                        </a>
                     </label>
                 </div>
             </div>
